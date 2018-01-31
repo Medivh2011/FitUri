@@ -1,5 +1,5 @@
 # FitUri
-快速完成Android 7 FileProvider适配
+快速完成Android 7 FileProvider适配,不与其他第三方冲突
 ## 使用
 ### Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
