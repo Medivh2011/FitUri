@@ -34,7 +34,7 @@ private void takePhoto() {
             File file = new File(Environment.getExternalStorageDirectory(), filename);
             mCurrentPhotoPath = file.getAbsolutePath();
             //获取兼容N的Uri
-	    <table><tr><td bgcolor=orange> Uri fileUri = FileProviderN.getUriFromFile(this, file); </td></tr></table>
+	    Uri fileUri = FileProviderN.getUriFromFile(this, file); 
             takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
             startActivityForResult(takePictureIntent, TAKE_PHOTO);
         }
