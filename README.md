@@ -3,6 +3,7 @@
 ## 使用
 ### Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
+<pre>
 <code>
 	allprojects {
 		repositories {
@@ -10,12 +11,15 @@ Add it in your root build.gradle at the end of repositories:
 		}
 	}
   </code>
+  </pre>
 ### Step 2. Add the dependency
+<pre>
 <code>
 	dependencies {
 	        compile 'com.github.Medivh2011:FitUri:1.0'
 	}
 </code>
+</pre>
 
 ## 使用示例
 #### 1.TakePhoto
@@ -44,6 +48,7 @@ private void takePhoto() {
         }
     }
 </code>
+</pre>
 #### 2 InstallAPK
 <pre>
 <code>
@@ -58,16 +63,7 @@ private void takePhoto() {
                 intent, "application/vnd.android.package-archive", file, true);
         startActivity(intent);
     }
-    
-
-
-
 </code>
-
-
-
-
-
 </pre>
 
 
